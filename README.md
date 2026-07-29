@@ -6,7 +6,7 @@
 * Initially, the arrangement worked well. However, as the company grew, several issues began to emerge. The MSP did not have a role-based access control (RBAC) policy in place. Users were provisioned manually, with no standard naming convention, organizational unit (OU) structure, or consistent group memberships. These gaps created significant HIPAA compliance risks for a healthcare organization with more than 200 employees.
 
 ## Solution Overview
-* I built and configured the NMG.com domain in Windows Server. I designed a department-based organizational unit structure for four business units and implemented role-based access control using security groups aligned with each department. I also provisioned 15 user accounts using standardized naming conventions, consistent attributes, and structured access assignments.
+* I built and configured the NMG.com domain in Active Directory Windows Server. I designed a department-based organizational unit structure for four business units and implemented role-based access control using security groups aligned with each department. I provisioned 15 user accounts using standardized naming conventions, consistent attributes, and structured access assignments.  I also created and resolved a mock ticket where a user was provisioned the incorrect access level.
   
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
