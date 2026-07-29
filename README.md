@@ -31,5 +31,3 @@
 * Designed department-based OU structure (Finance, HR, IT, Operations)
 * Implemented RBAC with security groups mapped to each department
 * Provisioned 15 user accounts with consistent naming conventions and attribute standards
-
-* 
