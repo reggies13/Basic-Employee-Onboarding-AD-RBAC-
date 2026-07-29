@@ -1,0 +1,24 @@
+1. Jane's user ID is in the Operations OU.  She's currently not in the HR OU and has been assigned the wrong role.
+2. She's in the Operations OU but is suppose to be in the HR OU since she's an HR Specialist.
+3. She's currently a member of operations-users and should be a member of HR-users.
+
+Being placed in the wrong OU and being a member of the wrong group have caused Jane
+to not be able to access the correct permissions, files, printers, etc. for her 
+role.  The policies were not applied to her properly.
+
+Ticket number: NGM-0047
+Affected user: Janes Cooper (jcooper@NGM.com)
+Issues reported: Unable to access HR shared resources. Desktop policies and mapped
+drives differ from teammates.
+
+Root cause: Jane's user ID is in the Operations OU.  She's currently not in the HR OU and has
+been assigned the wrong role.
+
+Fix applied: I moved user from Operations OU to HR OU.  Changed permissions from 
+operations-users to HR-users.
+
+Verification: Took screenshots of the current status after the move to the correct
+OU and Security Group Members.
+
+Date resolved: 28 July 2026
+Resolved by: Reginald Sinevet
