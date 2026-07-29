@@ -1,11 +1,13 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* This project is based on a case study of a fictional healthcare company called Northstar Medical Group. The fast-growing company outsourced its identity lifecycle management workflow to a third-party managed service provider (MSP).
+
+* Initially, the arrangement worked well. However, as the company grew, several issues began to emerge. The MSP did not have a role-based access control (RBAC) policy in place. Users were provisioned manually, with no standard naming convention, organizational unit (OU) structure, or consistent group memberships. These gaps created significant HIPAA compliance risks for a healthcare organization with more than 200 employees.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
-
+* I built and configured the NMG.com domain in Windows Server. I designed a department-based organizational unit structure for four business units and implemented role-based access control using security groups aligned with each department. I also provisioned 15 user accounts using standardized naming conventions, consistent attributes, and structured access assignments.
+  
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
 
