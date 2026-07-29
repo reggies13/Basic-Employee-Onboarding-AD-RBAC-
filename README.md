@@ -9,7 +9,9 @@
 * I built and configured the NMG.com domain in Active Directory Windows Server. I designed a department-based organizational unit structure for four business units and implemented role-based access control using security groups aligned with each department. I provisioned 15 user accounts using standardized naming conventions, consistent attributes, and structured access assignments.  I also created and resolved a mock ticket where a user was provisioned the incorrect access level.
   
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+[![Watch the Active Directory RBAC Project Walkthrough](https://img.youtube.com/vi/-AWhPPAVX6U/hqdefault.jpg)](https://www.youtube.com/watch?v=-AWhPPAVX6U)
+
+▶️ [Watch the full project walkthrough on YouTube](https://www.youtube.com/watch?v=-AWhPPAVX6U)
 
 ## Tools Used
 * Windows Server
